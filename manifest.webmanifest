@@ -1,0 +1,20 @@
+{
+  "name": "HTML Viewer",
+  "short_name": "HTML Viewer",
+  "description": "Buka dan lihat file HTML, offline.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1d2433",
+  "theme_color": "#1d2433",
+  "lang": "id",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "file_handlers": [
+    {"action": "./", "accept": {"text/html": [".html", ".htm"]}}
+  ]
+}
